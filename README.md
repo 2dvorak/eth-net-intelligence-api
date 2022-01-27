@@ -31,7 +31,7 @@ Configure the app modifying [processes.json](/eth-net-intelligence-api/blob/mast
 "env":
 	{
 		"NODE_ENV"        : "production", // tell the client we're in production environment
-		"RPC_HOST"        : "localhost", // eth JSON-RPC host
+		"RPC_HOST"        : "http://localhost", // eth JSON-RPC host
 		"RPC_PORT"        : "8545", // eth JSON-RPC port
 		"LISTENING_PORT"  : "30303", // eth listening port (only used for display)
 		"INSTANCE_NAME"   : "", // whatever you wish to name your node
